@@ -22,7 +22,7 @@ import { parseCookies } from "nookies"
 import { GoogleLoginButton } from "react-social-login-buttons"
 import { loadUser } from "../../../redux/userAction"
 import { useDispatch } from "react-redux"
-import { wrapper } from "../../../redux/store"
+import { wrapper } from "../../../redux/store.js"
 
 const theme = createTheme()
 
